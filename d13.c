@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//IMPLIMENTATION OF CIRCULAR LINKED LIST.
 #include<stdlib.h>
 struct node
 { 
@@ -39,7 +39,7 @@ int display(struct node *head)
         printf("circular list is : %d\n",temp->data);
         temp=temp->next;
     }
-    printf("circular list is : 2%d\n",temp->data);
+    printf("circular list is : %d\n",temp->data);
     return 0;
 }
 int main()
